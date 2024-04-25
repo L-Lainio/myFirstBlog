@@ -1,0 +1,88 @@
+/** @format */
+
+header {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+details#theme {
+	float: right;
+}
+
+.light-dark {
+	background-color: black;
+	color: white;
+}
+
+main {
+	display: flex;
+	justify-content: center;
+	/*border-top: double 1rem;*/
+	height: calc(100vh - 10rem);
+}
+
+form {
+	display: flex;
+	flex-flow: column wrap;
+}
+
+.inputEl {
+	margin: 0.5rem 0;
+}
+
+.card {
+	border-radius: 8px;
+	margin: 2%;
+	margin-top: 80px;
+	padding: 20px;
+	width: 46%;
+	position: relative;
+	float: left;
+}
+
+.card::after {
+	content: " ";
+	display: block;
+	clear: both;
+}
+
+.clearfix::after {
+	content: " ";
+	display: block;
+	clear: both;
+}
+
+#msg {
+	visibility: hidden;
+	margin-top: 20px;
+	font-weight: 700;
+	height: 1.2em;
+	font-size: 1.2em;
+}
+
+#msg.success,
+#msg.error {
+	visibility: visible;
+}
+
+#msg.success {
+	color: #001b44;
+}
+
+#msg.error {
+	color: #e6252c;
+}
+
+.blog-article {
+	width: 100%;
+	border-bottom: 2px solid rgb(13, 180, 222);
+	margin-bottom: 15px;
+}
+
+footer {
+	font-family: monospace;
+	text-align: center;
+	height: 20px;
+	background: rgb(189, 135, 239);
+}

@@ -1,0 +1,20 @@
+body {
+	margin: 0;
+	font-family: "Major Mono Display", monospace;
+	font-weight: 400;
+	font-style: normal;
+	overflow-y: hidden;
+}
+
+.blog-article {
+	width: 100%;
+	border-bottom: 2px solid rgb(13, 180, 222);
+	margin-bottom: 15px;
+}
+
+footer {
+	font-family: monospace;
+	text-align: center;
+	height: 20px;
+	background: rgb(189, 135, 239);
+}
